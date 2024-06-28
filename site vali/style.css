@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(177, 177, 177);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(247, 240, 240);
+  filter: drop-shadow(0 0 0.15rem rgb(0, 0, 0));
+}
+
+.navbar > img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  margin-left: 150px;
+}
+
+#preturi {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  filter: drop-shadow(0 0 0.55rem rgb(0, 0, 0));
+
+}
+
+#preturi > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#preturi > a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  justify-content: center;
+  margin-right: 30px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  filter: drop-shadow(0 0 0.15rem rgb(0, 0, 0));
+}
+
+.gen1 {
+  height: 80px;
+  background-color: red;
+  width: 300px;
+  margin-left: 20px;
+  background: url("./assets/ce68db8c-148f-4285-a3ae-279a9a2f00ea.jpeg") no-repeat center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.gen1 > h6 {
+  color: white;
+  font-size: 40px;
+  padding: 14px;
+}
+
+.bginspate {
+  content: " ";
+  height: 180px;
+  width: 100%;
+  background-color: red;
+  background: url("./assets/WhatsApp\ Image\ 2024-06-24\ at\ 16.35.34.jpeg")
+    no-repeat center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.part-sus {
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.bginspate > img {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.gen2 {
+  height: 80px;
+  background-color: red;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.gen2 > h6 {
+  color: white;
+  font-size: 40px;
+  padding: 14px;
+}
+
+.gen3 {
+  height: 80px;
+  background-color: red;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.gen3 > h6 {
+  color: white;
+  font-size: 40px;
+  padding: 14px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 950;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  cursor: pointer !important;
+}
+
+a:hover {
+   color: rgb(103, 105, 219);
+}
+
+.valihead > img {
+  height: 150px;
+  margin-left: 50px;
+  filter: drop-shadow(0 0 0.15rem rgb(0, 0, 0));
+}
+
+.valihead > h1 { 
+    font-weight: 200;
+    margin-left: 60px;
+    position: relative;
+    bottom: 30px;
+}
+
+hr {
+  width: 150px;
+  position: relative;
+  left: 105px;
+  bottom: 30px;
+  
+}
+
+#back {
+    position: relative;
+    bottom: 32px;
+    right: 150px;
+    font-weight: 500;
+}
